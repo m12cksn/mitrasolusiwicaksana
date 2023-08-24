@@ -31,9 +31,30 @@ const Hero = () => {
             Jasa Konsultan Hukum Perusahaan dan Virtual Office
           </h1>
           <p className="  mt-5 lg:leading-relaxed lg:tracking-wide text-base lg:text-lg lg:pr-12 text-slate-200 md:text-lg">
-            Menyediakan kantor, baik berupa Virtual Office ataupun Private
-            Office dengan Lokasi Strategis di berbagai kota di Indonesia dengan
-            Harga Termurah.
+            Perseroan Terbatas yang bergerak di bidang{" "}
+            <span className="font-bold text-lg">
+              Jasa Konsultan Hukum Perusahaan{" "}
+            </span>
+            , berperan sebagai mitra usaha dalam menunjang aktivitas kegiatan
+            usaha khususnya pada sektor perizinan dan legalitas usaha termasuk
+            pada kegiatan due diligence dokumen hukum. Jasa konsultan hukum yang
+            diberikan baik kepada perusahaan ataupun perorangan senantiasa
+            mengikuti dinamisasi regulasi yang berlaku, sehingga solusi yang
+            diberikan sesuai dengan koridor hukum positif.{" "}
+            <span className="font-bold text-lg">
+              {" "}
+              Berdiri sejak tahun 2017{" "}
+            </span>
+            , perusahaan kami berpengalaman didukung dengan tenaga profesional
+            yang berkompeten berkomitmen memberikan solusi terbaik sebagai mitra
+            usaha sehingga membentuk suatu kepercayaan di tengah tingginya
+            resiko usaha saat ini. Pada tahun 2023,{" "}
+            <span className="font-bold text-lg">
+              {" "}
+              Perusahaan kami pun semakin mengembangkan bidang usaha dalam
+              penyediaan Jasa Kantor bersama (Virtual Office){" "}
+            </span>
+            untuk mendukung sarana dan prasarana mitra usaha.
           </p>
           <div className="w-full mt-8 hidden lg:block shadow-lg rounded-md overflow-hidden">
             <Link

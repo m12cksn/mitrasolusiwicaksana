@@ -36,7 +36,7 @@ const Navbar = () => {
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
             href="/visi"
           >
-            <h1>Visi Misi</h1>
+            <h1>Tentang</h1>
           </Link>
           <Link
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
@@ -46,7 +46,7 @@ const Navbar = () => {
           </Link>
           <Link
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
-            href="/vo"
+            href="https://smartofficevo.com/"
           >
             <h1>Order Vo ?</h1>
           </Link>
@@ -78,7 +78,7 @@ const Navbar = () => {
                 onClick={handleSmallerScreenNavigation}
                 className="font-semibold hover:text-secondary ease-in-out duration-150 transition-all"
               >
-                <Link href="/visi">Visi Misi</Link>
+                <Link href="/visi">Tentang</Link>
               </li>
               <li
                 onClick={handleSmallerScreenNavigation}

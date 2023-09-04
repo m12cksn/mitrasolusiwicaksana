@@ -6,6 +6,7 @@ import Image from "next/image";
 const visi = () => {
   return (
     <div>
+      <div></div>
       <div className="bg-secondary p-3">
         <Navbar />
         <div className="flex flex-col gap-10 items-center justify-center container pt-32 pb-8">

@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "./Title";
 import Image from "next/image";
+
 const Aboutmsw = () => {
   return (
     <div>

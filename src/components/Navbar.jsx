@@ -34,31 +34,31 @@ const Navbar = () => {
         <div className="md:flex gap-10 hidden items-center">
           <Link
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
-            href="/visi"
+            href="/"
           >
             <h1>Beranda</h1>
           </Link>
           <Link
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
-            href="/visi"
+            href="/tentang"
           >
             <h1>Tentang Kami</h1>
           </Link>
           <Link
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
-            href="/legalitas"
+            href="/layanan"
           >
             <h1>Layanan</h1>
           </Link>
           <Link
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
-            href="/vo"
+            href="question"
           >
             <h1>FAQ</h1>
           </Link>
           <Link
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
-            href="/vo"
+            href="kontak"
           >
             <h1>Kontak</h1>
           </Link>

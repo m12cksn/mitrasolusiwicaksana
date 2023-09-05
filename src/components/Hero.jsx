@@ -5,7 +5,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Link from "next/link";
 
-const Hero = () => {
+const Hero = (props) => {
   const images = [
     {
       id: 1,
@@ -25,29 +25,13 @@ const Hero = () => {
       {/* <div className="w-72 h-6 absolute bg-white bottom-0 rounded-tr-3xl "></div> */}
       <div className="px-6 mx-auto py-10 lg:py-20 sm:max-w-2xl md:max-w-4xl md:px-10  lg:max-w-5xl xl:max-w-7xl 2xl:w-full">
         <h1 className="mb-4 text-4xl font-extrabold tracking-widerleading-none text-secondary leading-snug md:text-5xl lg:text-6xl">
-          PT Mitra Solusi Wicaksana
+          {props.title}
         </h1>
         <p className="mb-8 hidden md:block text-lg font-normal text-gray-300 lg:text-2xl lg:leading-normal  text-justify xl:leading-relaxed">
-          Perseroan Terbatas yang bergerak di bidang Jasa Konsultan Hukum
-          Perusahaan, berperan sebagai mitra usaha dalam menunjang aktivitas
-          kegiatan usaha khususnya pada sektor perizinan dan legalitas usaha
-          termasuk pada kegiatan due diligence dokumen hukum. Jasa konsultan
-          hukum yang diberikan baik kepada perusahaan ataupun perorangan
-          senantiasa mengikuti dinamisasi regulasi yang berlaku, sehingga solusi
-          yang diberikan sesuai dengan koridor hukum positif. Berdiri sejak
-          tahun 2017 , perusahaan kami berpengalaman didukung dengan tenaga
-          profesional yang berkompeten berkomitmen memberikan solusi terbaik
-          sebagai mitra usaha sehingga membentuk suatu kepercayaan di tengah
-          tingginya resiko usaha saat ini. Pada tahun 2023, Perusahaan kami pun
-          semakin mengembangkan bidang usaha dalam penyediaan Jasa Kantor
-          bersama (Virtual Office) untuk mendukung sarana dan prasarana mitra
-          usaha.”{" "}
+          {props.titleLarge}
         </p>
         <p className="mb-8 md:hidden text-lg font-normal text-gray-300 lg:text-xl  text-justify">
-          Perseroan Terbatas yang bergerak di bidang Jasa Konsultan Hukum
-          Perusahaan, berperan sebagai mitra usaha dalam menunjang aktivitas
-          kegiatan usaha khususnya pada sektor perizinan dan legalitas usaha
-          termasuk pada kegiatan due diligence dokumen hukum.
+          {props.titleSmall}
         </p>
         <div className="w-full mt-8  shadow-lg rounded-md overflow-hidden">
           <Link

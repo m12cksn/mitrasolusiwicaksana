@@ -8,28 +8,35 @@ const FAQ = () => {
   const accordionData = [
     {
       id: 1,
-      question: "Mitra Solusi Wicaksana ini perusahaan di bidang apa?",
+      question: "Mitra Solusi Wicaksana perusahaan bidang apa?",
       answer:
-        "PT MITRA SOLUSI WICAKSANA berkedudukan di Lippo Tower Holland Village, Lantai 12 Unit 2910, Jalan Letjend Suprapto Kav.60 Nomor 1, Jakarta Pusat,, berdiri sejak tanggal 20 Juni Tahun 2017 sesuai dengan Surat Keputusan Menteri Hukum dan HAM Nomor AHU-0031771.AH.01.01 Tahun 2017, bergerak pada bidang jasa konsultan hukum perusahaan dan jasa kantor bersama (virtual office) terdafkat dalam Perhimpunan Pengusaha Jasa Kantor Bersama Indonesia (PERJAKBI) berdasarkan Sertifikat Nomor:007/Perjakbi-Keanggotaan/V/2023.",
+        "Mitra Solusi Wicaksana merupakan Perseroan Terbatas yang bergerak dibidang jasa Konsultan Hukum. Tujuan kami hadir untuk menyediakan bantuan bagi klien lokal maupun multinasional dalam merintis bisnis di wilayah negara Indonesia. Kami hadir dengan berbagai layanan konsultasi untuk membantu klien kami dalam mengembangkan bisnisnya di Indonesia. Dengan pengalaman yang kami miliki, kami memiliki landasan yang kuat untuk membantu klien kami, biaya terjangkau, layanan hukum dan bisnis yang andal dengan pelayanan yang unggul, berintegritas, dan terpercaya bagi klien. Kami merupakan Konsultan yang berpengalaman dengan rekam jejak yang baik dalam menangani kasus. Berbekal pengalaman dan kemampuan kerjasama tim yang baik serta jaringan hukum dan bisnis yang luas, kami percaya kepuasan klien menjadi prioritas kami.     ",
     },
     {
       id: 2,
-      question: "Apa saja Layanannya?",
+      question: "Apa saja layanan yang disediakan PT Mitra Solusi Wicaksana?",
       answer:
         "Kami ada 3 penawaran layanan. Yaitu virtual office, private office, dan jasa pengurusan legalitas perusahaan.",
     },
     {
       id: 3,
-      question: "Apakah bisa konsultasi terlebih dahulu?",
+      question: "Apakah dapat berkonsultasi terlebih dahulu?",
       answer:
         "Kami akan dengan senang hati melayani Anda jika ingin konsultasi mengenai virtual office dan pengurusan legalitas perusahaan, tim kami siap membantu Anda.",
     },
     {
       id: 4,
       question:
-        "Jika saya tertarik dengan layanan Mitra Solusi Wicaksana harus menghubungi kemana?",
+        "Apakah Mitra Solusi Wicaksana dapat menyesuaikan pelayanan hukum lain?",
       answer:
-        "Baik, Anda bisa langsung hubungi kami nomor berikut bisa via tlp/whatsappp 0822-xxxx-xxxx.",
+        "Mitra Solusi Wicaksana menyediakan layanan yang dapat disesuaikan untuk memenuhi kebutuhan setiap klien. Dalam prakteknya kami dapat menyediakan berbagai permintaan yang sesuai dengan kebutuhan dan permintaan klien.",
+    },
+    {
+      id: 5,
+      question:
+        "e	Jika tertarik dengan layanan Mitra Solusi Wicaksana harus menghubungi kemana?",
+      answer:
+        "Jika anda tertarik dengan pelayanan kami, silahkan hubungi kami dikontak yang telah disediakan.",
     },
   ];
 

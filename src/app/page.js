@@ -22,7 +22,7 @@ export default function Home() {
     <div>
       <div>
         <Navbar />
-        <Hero titleLarge={titleLarge} titleSmall={titleSmall} />
+        <Hero title={title} titleLarge={titleLarge} titleSmall={titleSmall} />
         <Aboutmsw />
         {/* <VO />
       <Contents />

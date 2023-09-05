@@ -11,7 +11,7 @@ const Navbar = () => {
     setMenuIcon(!menuIcon);
   };
   return (
-    <header className=" shadow bg-teks w-full ease-in-out duration-500 fixed top-0 left-0 z-50">
+    <header className=" shadow bg-teks w-full ease-in-out duration-500  z-50">
       <nav className="max-w-[1366px] mx-auto  flex justify-between items-center py-3 px-4">
         <div className="flex items-center">
           <Link className="flex items-center gap-3" href="/">
@@ -36,19 +36,31 @@ const Navbar = () => {
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
             href="/visi"
           >
-            <h1>Tentang</h1>
+            <h1>Beranda</h1>
+          </Link>
+          <Link
+            className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
+            href="/visi"
+          >
+            <h1>Tentang Kami</h1>
           </Link>
           <Link
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
             href="/legalitas"
           >
-            <h1>Legalitas</h1>
+            <h1>Layanan</h1>
           </Link>
           <Link
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
-            href="https://smartofficevo.com/"
+            href="/vo"
           >
-            <h1>Order Vo ?</h1>
+            <h1>FAQ</h1>
+          </Link>
+          <Link
+            className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
+            href="/vo"
+          >
+            <h1>Kontak</h1>
           </Link>
         </div>
         <div className="flex md:hidden" onClick={handleSmallerScreenNavigation}>
@@ -78,7 +90,7 @@ const Navbar = () => {
                 onClick={handleSmallerScreenNavigation}
                 className="font-semibold hover:text-secondary ease-in-out duration-150 transition-all"
               >
-                <Link href="/visi">Tentang</Link>
+                <Link href="/visi">Visi Misi</Link>
               </li>
               <li
                 onClick={handleSmallerScreenNavigation}

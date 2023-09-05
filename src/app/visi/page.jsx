@@ -6,12 +6,11 @@ import Image from "next/image";
 const visi = () => {
   return (
     <div>
-      <div></div> ini check
       <div className="bg-secondary p-3">
         <Navbar />
         <div className="flex flex-col gap-10 items-center justify-center container pt-32 pb-8">
           <div className="flex items-center py-6 relative bg-red-200 max-w-xl lg:max-w-3xl  container mx-auto rounded shadow">
-            <h1 className="w-32 h-10 text-teks tracking-wide absolute z-30 bg-primary text-slate-50 tracking-wide flex items-center justify-center rounded-full -top-5 left-0 md:text-lg font-bold text-slate-900">
+            <h1 className="w-32 h-10 text-teks tracking-wide absolute z-30 bg-primary   flex items-center justify-center rounded-full -top-5 left-0 md:text-lg font-bold ">
               Tentang
             </h1>
             <h1 className="pl-3 tracking-wide leading-normal text-slate-700">
@@ -52,7 +51,7 @@ const visi = () => {
             </h1>
           </div>
           <div className="flex items-center py-6 relative bg-red-200 max-w-xl lg:max-w-3xl container mx-auto rounded shadow">
-            <h1 className="w-32 h-10 text-teks tracking-wide absolute z-30 bg-primary text-slate-50 tracking-wide flex items-center justify-center rounded-full -top-5 left-0 font-bold md:text-lg font-bold text-slate-900">
+            <h1 className="w-32 h-10  absolute z-30 bg-primary text-slate-50 tracking-wide flex items-center justify-center rounded-full -top-5 left-0 font-bold md:text-lg ">
               Misi:
             </h1>
             <quoute className="pl-3 tracking-wide leading-normal text-slate-700 font-extrabold">
@@ -62,7 +61,7 @@ const visi = () => {
             </quoute>
           </div>
           <div className="flex items-center py-6 relative bg-red-200 max-w-xl lg:max-w-3xl container mx-auto rounded shadow">
-            <h1 className="w-40 text-teks tracking-wide h-10 absolute z-30 bg-primary  text-slate-50 flex items-center justify-center rounded-full -top-5 left-0 font-bold text-base md:text-lg font-bold text-slate-900">
+            <h1 className="w-40  tracking-wide h-10 absolute z-30 bg-primary  text-slate-50 flex items-center justify-center rounded-full -top-5 left-0 font-bold text-base md:text-lg ">
               Bidang Usaha
             </h1>
             <div>

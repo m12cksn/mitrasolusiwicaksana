@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      <div className="w-full md:container ">
+      <div className="w-full ">
         <FAQ />
       </div>
       <Footer />

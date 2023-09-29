@@ -29,30 +29,30 @@ const Footer = () => {
               </a>
             </div>
             <div className="mt-7 md:mt-0">
-              <h1 className="text-2xl font-semibold border-b-4 inline-block border-slate-800 text-slate-900">
+              <h1 className="text-xl font-semibold border-b-4 inline-block border-slate-800 text-slate-900">
                 Contact
               </h1>
               <ul className="flex flex-col mt-2">
-                <li className="text-xl text-slate-700">Whatsapp</li>
-                <li className="text-xl text-slate-700">Email</li>
-                <li className="text-xl text-slate-700">Alamat</li>
-                <li className="text-xl text-slate-700">Instagram</li>
+                <li className="text-lg text-slate-700">Whatsapp</li>
+                <li className="text-lg text-slate-700">Email</li>
+                <li className="text-lg text-slate-700">Alamat</li>
+                <li className="text-lg text-slate-700">Instagram</li>
               </ul>
             </div>
           </div>
-          <div className="">
-            <h1 className="text-2xl font-semibold border-b-4 inline-block border-slate-800 text-slate-900">
+          <div className="mt-4">
+            <h1 className="text-xl font-semibold border-b-4 inline-block border-slate-800 text-slate-900">
               Layanan
             </h1>
             <ul className="flex flex-col mt-2">
-              <li className="text-xl text-slate-700">Pendirian Badan Hukum</li>
-              <li className="text-xl text-slate-700">Layanan Hukum</li>
-              <li className="text-xl text-slate-700">
+              <li className="text-lg text-slate-700">Pendirian Badan Hukum</li>
+              <li className="text-lg text-slate-700">Layanan Hukum</li>
+              <li className="text-lg text-slate-700">
                 Layanan Penasehat Hukum
               </li>
-              <li className="text-xl text-slate-700">Layanan HAKI</li>
-              <li className="text-xl text-slate-700">Layanan Pajak</li>
-              <li className="text-xl text-slate-700">Layanan Virtual Office</li>
+              <li className="text-lg text-slate-700">Layanan HAKI</li>
+              <li className="text-lg text-slate-700">Layanan Pajak</li>
+              <li className="text-lg text-slate-700">Layanan Virtual Office</li>
             </ul>
           </div>
         </div>

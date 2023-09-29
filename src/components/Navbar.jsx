@@ -74,8 +74,8 @@ const Navbar = () => {
         <div
           className={
             menuIcon
-              ? "md:hidden absolute top-[72px] right-0 bottom-0 left-0 flex justify-center items-center w-full h-screen bg-slate-800 text-white ease-in-out duration-500"
-              : "md:hidden absolute top-[72px] right-0  left-[100%] flex justify-center items-center w-full h-screen text-center g-slate-800 text-white ease-in-out duration-500"
+              ? "md:hidden absolute top-[72px] right-0 bottom-0 z-50 left-0 flex justify-center items-center w-full h-screen bg-slate-800 text-white ease-in-out duration-500"
+              : "md:hidden absolute top-[72px] right-0 z-50  left-[100%] flex justify-center items-center w-full h-screen text-center g-slate-800 text-white ease-in-out duration-500"
           }
         >
           <div className="w-full">
@@ -84,25 +84,31 @@ const Navbar = () => {
                 onClick={handleSmallerScreenNavigation}
                 className="font-semibold hover:text-secondary ease-in-out duration-150 transition-all"
               >
-                <Link href="/">Home</Link>
+                <Link href="/">Beranda</Link>
               </li>
               <li
                 onClick={handleSmallerScreenNavigation}
                 className="font-semibold hover:text-secondary ease-in-out duration-150 transition-all"
               >
-                <Link href="/visi">Visi Misi</Link>
+                <Link href="/tentang">Tentang Kami</Link>
               </li>
               <li
                 onClick={handleSmallerScreenNavigation}
                 className="font-semibold hover:text-secondary ease-in-out duration-150 transition-all"
               >
-                <Link href="/legalitas">Legalitas</Link>
+                <Link href="/layanan">Layanan</Link>
               </li>
               <li
                 onClick={handleSmallerScreenNavigation}
                 className="font-semibold hover:text-secondary ease-in-out duration-150 transition-all"
               >
-                <Link href="https://smartofficevo.com/">Order VO</Link>
+                <Link href="/question">FAQ</Link>
+              </li>
+              <li
+                onClick={handleSmallerScreenNavigation}
+                className="font-semibold hover:text-secondary ease-in-out duration-150 transition-all"
+              >
+                <Link href="/kontak">Kontak</Link>
               </li>
             </ul>
           </div>

@@ -16,7 +16,7 @@ const FAQ = () => {
       id: 2,
       question: "Apa saja layanan yang disediakan PT Mitra Solusi Wicaksana?",
       answer:
-        "Kami ada 3 penawaran layanan. Yaitu virtual office, private office, dan jasa pengurusan legalitas perusahaan.",
+        "Layanan pendirian Badan Hukum,	Layanan Hukum, Layanan Penasehat Hukum,	Layanan Hak Kekayaan Intelektual,	Layanan Kantor Bersama / Virtual Office, Layanan Laporan Pajak Perusahaan dan Perorangan,	Layanan lainnya yang kami sesuaikan dengan kebutuhan klien.",
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const FAQ = () => {
     {
       id: 5,
       question:
-        "e	Jika tertarik dengan layanan Mitra Solusi Wicaksana harus menghubungi kemana?",
+        "Jika tertarik dengan layanan Mitra Solusi Wicaksana harus menghubungi kemana?",
       answer:
         "Jika anda tertarik dengan pelayanan kami, silahkan hubungi kami dikontak yang telah disediakan.",
     },
@@ -50,7 +50,7 @@ const FAQ = () => {
     );
   };
   return (
-    <section className="bg-slate-100 pt-5 pb-10 grid place-items-center">
+    <section className="bg-slate-50 pt-5 pb-10 grid place-items-center">
       <Title img="/MSW/content.svg" title="FAQS" />
       <div className="px-7 md:px-10 md:max-w-3xl xl:max-w-6xl xl:py-2">
         {accordionData.map((data, index) => (
@@ -69,7 +69,7 @@ const FAQ = () => {
               </div>
             </div>
             <Collapse isOpened={openIndexes.includes(index)}>
-              <div className="bg-slate-100 shadow-lg px-5 tracking-wide pb-[20-px] leading-loose py-8">
+              <div className="bg-slate-100 shadow-lg px-5 tracking-wide pb-[20-px] leading-loose py-8 text-justify">
                 {data.answer}
               </div>
             </Collapse>

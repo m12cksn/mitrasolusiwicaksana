@@ -12,7 +12,7 @@ const Title = (props) => {
         alt="Cruise"
         priority={true}
       />
-      <h1 className="text-center text-2xl md:text-3xl xl:text-4xl md:leading-normal text-third font-semibold ">
+      <h1 className="text-center text-2xl md:text-3xl xl:text-4xl md:leading-normal text-third font-semibold px-5 ">
         {props.title}
       </h1>
     </div>

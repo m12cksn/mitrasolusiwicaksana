@@ -13,7 +13,7 @@ const page = () => {
     {
       icons: AiFillCustomerService,
       title: "Melalui Telepon",
-      desc: "Anda dapat menghubungi kami kapan saja di +6221 2922 2999 selama jam kerja. Customer Service kami akan siap membantu Anda.",
+      desc: "Anda dapat menghubungi kami kapan saja di +xxxx xxxx xxxx selama jam kerja. Customer Service kami akan siap membantu Anda.",
     },
     {
       icons: AiTwotoneMail,

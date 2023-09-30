@@ -15,7 +15,7 @@ const page = () => {
       link: "//layanan/pendirian_badan_hukum",
     },
     {
-      imgUrl: "/layanan/relation.jpg",
+      imgUrl: "/layanan/relasi.jpg",
       title: "Layanan Hukum ",
       desc: "Layanan Hukum merupakan pelayanan yang kami berikan yang orientasi atas permasalahan hukum yang sedang anda hadapi hingga pendampingan ke kepolisian",
       link: "/layanan/layanan_hukum",

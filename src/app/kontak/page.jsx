@@ -18,7 +18,7 @@ const page = () => {
     {
       icons: AiTwotoneMail,
       title: "Melalui Email",
-      desc: "Anda juga bisa mengirimkan email ke cs@voffice.co.id. Kami akan membalas email Anda secepatnya.",
+      desc: "Anda juga bisa mengirimkan email ke mitrasolusiwicaksana@gmail.com Kami akan membalas email Anda secepatnya.",
     },
     {
       icons: AiFillWechat,

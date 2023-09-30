@@ -9,34 +9,40 @@ import Link from "next/link";
 const page = () => {
   const dataCard = [
     {
-      imgUrl: "/imagesmsw/4.png",
+      imgUrl: "/layanan/legalitas-perusahaan.jpg",
       title: "Pendirian Badan Hukum",
-      desc: "Kami menyediakan layanan pendirian dan pengabungan bisnis di Indonesia. ",
+      desc: "Kami menyediakan layanan pendirian dan pengabungan bisnis di Indonesia. yang meliputi Perseroan Terbatas (PT) maupun Commanditaire Vennootschap (CV)",
+      link: "//layanan/pendirian_badan_hukum",
     },
     {
-      imgUrl: "/imagesmsw/3.png",
+      imgUrl: "/layanan/relation.jpg",
       title: "Layanan Hukum ",
-      desc: "Layanan Hukum merupakan pelayanan yang kami berikan yang orientasi atas permasalahan hukum yang sedang anda hadapi.",
+      desc: "Layanan Hukum merupakan pelayanan yang kami berikan yang orientasi atas permasalahan hukum yang sedang anda hadapi hingga pendampingan ke kepolisian",
+      link: "/layanan/layanan_hukum",
     },
     {
-      imgUrl: "/imagesmsw/2.jpg",
-      title: "•	Layanan Penasehat Hukum",
+      imgUrl: "/layanan/penasehat.jpg",
+      title: "Layanan Penasehat Hukum",
       desc: "merupakan pelayanan profesional yang memberikan nasehat dan bimbingan hukum terhadap individu, bisnis, organisasi maupun badan hukum",
+      link: "/layanan/penasehat_hukum",
     },
     {
-      imgUrl: "/imagesmsw/1.png",
-      title: "•	Layanan HAKI",
+      imgUrl: "/layanan/Haki.jpg",
+      title: "Layanan HAKI",
       desc: "Layanan HAKI merupakan pelayanan yang memberikan jaminan atas perlindungan hak kekayaan intelektual anda",
+      link: "/layanan/haki",
     },
     {
-      imgUrl: "/imagesmsw/1.png",
-      title: "•	Layanan Virtual Office",
+      imgUrl: "/layanan/virtual.jpg",
+      title: "	Layanan Virtual Office",
       desc: "Menyediakan layanan jasa kantor bersama dan menawarkan fasilitas ruang perkantoran terlengkap dengan didukung staff profesional dan komunikatif.",
+      link: "/layanan/virtual_office",
     },
     {
-      imgUrl: "/imagesmsw/1.png",
-      title: "•	Layanan Pajak",
+      imgUrl: "/layanan/pajak.jpg",
+      title: "Layanan Pajak",
       desc: "Mitra Solusi Wicaksana menawarkan pelayanan dalam kegiatan laporan Pajak perorangan maupun perusahaan  dalam skala bulanan maupun tahunan.",
+      link: "/layanan/pajak",
     },
   ];
 
@@ -55,18 +61,18 @@ const page = () => {
       />
 
       <div className=" w-full mx-auto ">
-        <div className="mt-5 pb-28 px-3 relative xl:flex xl:flex-wrap z-30 md:container grid mx-auto gap-5 grid-flow-col-1 xl:gap-10 xl:mt-12  place-content-center ">
+        <div className="mt-5 pb-28 px-7 relative  lg:flex lg:flex-wrap z-30 md:container grid mx-auto gap-8 shadow xl:to-blue-300 grid-flow-col-1 xl:gap-10 xl:mt-12  place-content-center ">
           {dataCard.map((data, index) => (
             <div
               key={index}
-              className="max-w-md  xl:max-w-xl md:flex md:max-w-3xl  md:pb-10 rounded-xl    overflow-hidden "
+              className="max-w-md lg:max-w-md sm:max-w-2xl xl:max-w-xl sm:flex md:max-w-3xl lg:block xl:flex md:pb-10 overflow-hidden bg-slate-100 lg:bg-white shadow lg:shadow-none"
             >
               <div
                 // href="https://wa.me/6282210200085?text=Hello%20PT.%20Mitra%20Solusi%20Wicaksana%0A"
-                className="relative md:basis-1/2"
+                className="relative sm:basis-2/5 md:basis-1/2"
               >
                 <Image
-                  className="w-full rounded-xl h-72 md:h-96 object-center object-cover"
+                  className="w-full -xl h-72 md:h-96 object-center object-cover"
                   src={data.imgUrl}
                   width={1000}
                   height={1000}
@@ -74,15 +80,18 @@ const page = () => {
                   priority={true}
                 />
               </div>
-              <div className="py-5 px-2 md:basis-1/2 md:mt-5 md:shadow-lg md:p-6 md:bg-slate-50 ">
-                <Link href="https://wa.me/6282210200085?text=Hello%20PT.%20Mitra%20Solusi%20Wicaksana%0A">
-                  <h5 className="mb-2 md:mb-5 md:text-3xl md:tracking-normal text-2xl font-bold tracking-tight text-primary ">
-                    {data.title}
-                  </h5>
-                </Link>
-                <p className=" md:mb-4 font-normal md:text-lg text-gray-500 ">
+              <div className="py-5 px-3 sm:px-6 sm:basis-3/5 md:basis-1/2 md:mt-5 lg:mt-0 md:shadow-lg md:p-6 md:bg-slate-50 ">
+                <h1 className="mb-2 md:mb-5 md:text-3xl lg:text-2xl md:tracking-normal text-2xl font-bold tracking-tight text-primary ">
+                  {data.title}
+                </h1>
+                <p className="text-justify sm:leading-relaxed sm:tracking-wide md:mb-4 font-normal text-lg text-gray-500 ">
                   {data.desc}
                 </p>
+                <Link href={data.link}>
+                  <h5 className="mb-2 md:mb-5 md:text-3xl md:tracking-normal text-xl mt-3 font-bold tracking-tight text-primary lg:text-lg ">
+                    see more ...
+                  </h5>
+                </Link>
               </div>
             </div>
           ))}

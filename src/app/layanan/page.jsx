@@ -21,7 +21,7 @@ const page = () => {
       link: "/layanan/layanan_hukum",
     },
     {
-      imgUrl: "/layanan/penasehat.jpg",
+      imgUrl: "/layanan/Penasehat.jpg",
       title: "Layanan Penasehat Hukum",
       desc: "merupakan pelayanan profesional yang memberikan nasehat dan bimbingan hukum terhadap individu, bisnis, organisasi maupun badan hukum",
       link: "/layanan/penasehat_hukum",

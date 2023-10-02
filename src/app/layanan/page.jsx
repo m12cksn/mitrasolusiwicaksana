@@ -15,7 +15,7 @@ const page = () => {
       link: "//layanan/pendirian_badan_hukum",
     },
     {
-      imgUrl: "/layanan/relasi.jpg",
+      imgUrl: "/layanan/kanacane.jpg",
       title: "Layanan Hukum ",
       desc: "Layanan Hukum merupakan pelayanan yang kami berikan yang orientasi atas permasalahan hukum yang sedang anda hadapi hingga pendampingan ke kepolisian",
       link: "/layanan/layanan_hukum",
@@ -34,7 +34,7 @@ const page = () => {
     },
     {
       imgUrl: "/layanan/virtual.jpg",
-      title: "	Layanan Virtual Office",
+      title: "Layanan Virtual Office",
       desc: "Menyediakan layanan jasa kantor bersama dan menawarkan fasilitas ruang perkantoran terlengkap dengan didukung staff profesional dan komunikatif.",
       link: "/layanan/virtual_office",
     },
@@ -76,7 +76,7 @@ const page = () => {
                   src={data.imgUrl}
                   width={1000}
                   height={1000}
-                  alt="Cruise"
+                  alt=""
                   priority={true}
                 />
               </div>

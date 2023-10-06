@@ -60,7 +60,7 @@ const page = () => {
         title="Layanan PT. Mitra Solusi Wicaksana Antara Lain : "
       />
       <div className=" w-full mx-auto ">
-        <div className="mt-5 pb-28 px-7 relative  xl:grid xl:grid-cols-2 z-30 md:container grid mx-auto gap-8 shadow xl:to-blue-300 grid-flow-col-1 xl:gap-10 xl:mt-12  place-content-center ">
+        <div className="mt-5 pb-28 px-7 relative lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-2 z-30 md:container grid mx-auto gap-8 shadow xl:to-blue-300 grid-flow-col-1 xl:gap-10 xl:mt-12  place-content-center ">
           {dataCard.map((data, index) => (
             <div
               key={index}

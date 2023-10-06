@@ -12,7 +12,7 @@ const page = () => {
       imgUrl: "/layanan/legalitas-perusahaan.jpg",
       title: "Pendirian Badan Hukum",
       desc: "Kami menyediakan layanan pendirian dan pengabungan bisnis di Indonesia. yang meliputi Perseroan Terbatas (PT) maupun Commanditaire Vennootschap (CV)",
-      link: "//layanan/pendirian_badan_hukum",
+      link: "/layanan/pendirian_badan_hukum",
     },
     {
       imgUrl: "/layanan/kanacane.jpg",
@@ -59,9 +59,8 @@ const page = () => {
         img="/MSW/content.svg"
         title="Layanan PT. Mitra Solusi Wicaksana Antara Lain : "
       />
-
       <div className=" w-full mx-auto ">
-        <div className="mt-5 pb-28 px-7 relative  lg:flex lg:flex-wrap z-30 md:container grid mx-auto gap-8 shadow xl:to-blue-300 grid-flow-col-1 xl:gap-10 xl:mt-12  place-content-center ">
+        <div className="mt-5 pb-28 px-7 relative  xl:grid xl:grid-cols-2 z-30 md:container grid mx-auto gap-8 shadow xl:to-blue-300 grid-flow-col-1 xl:gap-10 xl:mt-12  place-content-center ">
           {dataCard.map((data, index) => (
             <div
               key={index}

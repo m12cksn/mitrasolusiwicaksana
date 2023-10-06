@@ -75,7 +75,7 @@ const Navbar = () => {
           className={
             menuIcon
               ? "md:hidden absolute top-[72px] right-0 bottom-0 z-50 left-0 flex justify-center items-center w-full h-screen bg-slate-800 text-white ease-in-out duration-500"
-              : "md:hidden absolute top-[72px] right-0 z-50  left-[100%] flex justify-center items-center w-full h-screen text-center g-slate-800 text-white ease-in-out duration-500"
+              : "md:hidden absolute top-[72px] right-0 z-50  -left-[30rem] flex justify-center items-center w-full h-screen text-center g-slate-800 text-white ease-in-out duration-500"
           }
         >
           <div className="w-full">

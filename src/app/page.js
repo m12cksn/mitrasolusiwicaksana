@@ -11,6 +11,7 @@ import VO from "@/components/VO";
 import Maps from "@/components/Maps";
 import Discuss from "@/components/Discuss";
 import Aboutmsw from "@/components/Aboutmsw";
+import Whatsapp from "@/components/Whatsapp";
 
 export default function Home() {
   const title = "PT Mitra Solusi Wicaksana";
@@ -33,6 +34,7 @@ export default function Home() {
         <Maps />
         {/* <Faq /> */}
         <Discuss />
+        {/* <Whatsapp /> */}
         <Footer />
       </div>
     </div>

@@ -9,7 +9,9 @@ const Aboutmsw = () => {
         <div className="container  px-5 mx-auto max-w-sm sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl">
           <Title img="/MSW/content.svg" title="PT. Mitra Solusi Wicaksana " />
           <p className="text-justify text-lg text-slate-600 pb-8 md:text-xl lg:text-2xl lg:leading-normal  ">
-            <span className="font-bold text-xl">PT Mitra Solusi Wicaksana</span>{" "}
+            <span className="font-bold text-xl lg:text-2xl">
+              PT Mitra Solusi Wicaksana
+            </span>{" "}
             merupakan Perseroan Terbatas yang bergerak di bidang Jasa Konsultan
             Hukum sejak tahun 2017. Mitra Solusi Wicaksana berpengalaman dalam
             memberikan nasehat dan Konsultan hukum dalam mengembangkan bisnis
@@ -21,7 +23,9 @@ const Aboutmsw = () => {
             untuk membantu mengembangkan bisnis mereka.
           </p>
           <p className="text-justify text-lg text-slate-600 pb-8 md:text-xl lg:text-2xl lg:leading-normal  ">
-            <span className="font-bold text-xl">PT Mitra Solusi Wicaksana</span>{" "}
+            <span className="font-bold text-xl lg:text-2xl">
+              PT Mitra Solusi Wicaksana
+            </span>{" "}
             juga menawarkan berbagai layanan konsultasi untuk membantu klien
             kami mengembangkan bisnis mereka di Indonesia. Tim kami terdiri dari
             konsultan hukum yang berkualifikasi demi pencapaian kesuksesan
@@ -29,7 +33,9 @@ const Aboutmsw = () => {
           </p>
           <p className="text-justify text-lg text-slate-600 pb-8 md:text-xl lg:text-2xl lg:leading-normal  ">
             Pada tahun 2023{" "}
-            <span className="font-bold text-xl">PT Mitra Solusi Wicaksana</span>{" "}
+            <span className="font-bold text-xl lg:text-2xl">
+              PT Mitra Solusi Wicaksana
+            </span>{" "}
             mengembangkan bisnisnya pada bidang bidang usaha penyediaan Jasa
             Kantor Bersama (Virtual Office)
           </p>

@@ -52,13 +52,13 @@ const Navbar = () => {
           </Link>
           <Link
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
-            href="question"
+            href="/question"
           >
             <h1>FAQ</h1>
           </Link>
           <Link
             className="font-semibold text-primary hover:text-slate-900 ease-in-out duration-150 transition-all text-xl md:text-lg"
-            href="kontak"
+            href="/kontak"
           >
             <h1>Kontak</h1>
           </Link>

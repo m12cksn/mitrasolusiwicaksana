@@ -2,8 +2,8 @@ import Footer from "@/components/Footer";
 
 import Navbar from "@/components/Navbar";
 import React from "react";
-import Link from "next/link";
-import Harga from "@/components/Harga";
+// import Link from "next/link";
+// import Harga from "@/components/Harga";
 
 const page = () => {
   const yes = (

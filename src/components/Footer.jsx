@@ -1,76 +1,93 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+import { AiFillFacebook } from "react-icons/ai";
+import { FaWhatsappSquare } from "react-icons/fa";
+import { MdMarkEmailUnread } from "react-icons/md";
+import { TbWorldWww } from "react-icons/tb";
+import Maps from "./Maps";
 
 const Footer = () => {
+  const medias = [
+    { name: AiFillFacebook },
+    { name: FaWhatsappSquare },
+    { name: MdMarkEmailUnread },
+    { name: TbWorldWww },
+  ];
   return (
-    <footer className=" bg-teks md:p-5">
-      <div className="mx-auto container w-full max-w-screen-xl p-6 py-6 lg:py-8">
-        <div className="md:flex md:justify-between items-start ">
-          <div>
-            <div className="mb-7 md:mb-3">
-              <a href="https://flowbite.com/" className="flex items-center">
-                <Image
-                  className="h-8 w-8 mr-3 "
-                  src={"/imagesmsw/logomsw.jpg"}
-                  width={1000}
-                  height={1000}
-                  alt="Cruise"
-                  priority={true}
-                />
-                {/* <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8 mr-3"
-              alt="FlowBite Logo"
-            /> */}
-                <span className="self-center text-2xl font-semibold whitespace-nowrap ">
-                  Mitra Solusi Wicaksana
-                </span>
-              </a>
-            </div>
-            <div className="mt-7 md:mt-0">
-              <h1 className="text-xl font-semibold border-b-4 inline-block border-slate-800 text-slate-900">
-                Contact
-              </h1>
-              <ul className="flex flex-col mt-2">
-                <li className="text-lg text-slate-700">Whatsapp</li>
-                <li className="text-lg text-slate-700">Email</li>
-                <li className="text-lg text-slate-700">Alamat</li>
-                <li className="text-lg text-slate-700">Instagram</li>
-              </ul>
-            </div>
+    <div>
+      <div className="max-w-xl md:max-w-4xl  lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl lg:container px-5 mx-auto pt-10 md:flex gap-16 justify-evenly items-start">
+        <div className="basis-1/3">
+          <h1 className="  text-slate-800 text-4xl md:text-2xl font-semibold">
+            Mitra{" "}
+            <span className="text-third font-semibold tracking-wider">
+              Solusi{" "}
+            </span>
+            Wicaksana
+          </h1>
+
+          <div className="flex gap-5 mt-5 items-start ">
+            {medias.map((media, index) => (
+              <div key={index}>
+                <media.name className="text-third text-3xl bg-white shadow p-1 w-8 h-8" />
+              </div>
+            ))}
           </div>
-          <div className="mt-4">
-            <h1 className="text-xl font-semibold border-b-4 inline-block border-slate-800 text-slate-900">
-              Layanan
-            </h1>
-            <ul className="flex flex-col mt-2">
-              <li className="text-lg text-slate-700">Pendirian Badan Hukum</li>
-              <li className="text-lg text-slate-700">Layanan Hukum</li>
-              <li className="text-lg text-slate-700">
-                Layanan Penasehat Hukum
-              </li>
-              <li className="text-lg text-slate-700">Layanan HAKI</li>
-              <li className="text-lg text-slate-700">Layanan Pajak</li>
-              <li className="text-lg text-slate-700">Layanan Virtual Office</li>
-            </ul>
+          <Maps />
+        </div>
+        <div className=" basis-1/3">
+          <h1 className="text-slate-800 font-semibold  text-xl mb-1">
+            Get in Touch
+          </h1>
+          <p className="text-slate-500 md:text-justify">
+            Lippo Tower Holland Village, Lantai 12 Unit 2910, Jalan Letjend
+            Suprapto Kav.60 Nomor 1, Jakarta Pusat
+          </p>
+          <div className="mt-5">
+            <p className="text-slate-500">ptmitrasolusiwicaksana@gmail.com</p>
+            <p className="text-slate-500">+62 822-1020-0085</p>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div className="flex justify-center">
-          <span className="text-sm text-gray-700 sm:text-center ">
-            © 2023{" "}
-            <a
-              href="https://flowbite.com/"
-              className="text-center hover:underline"
-            >
-              Mitra Solusi Wicaksana™
-            </a>
-            . All Rights Reserved.
-          </span>
+        <div className="mt-10 md:mt-0 basis-1/3">
+          <h1 className="text-slate-800 font-semibold  text-xl">Learn More</h1>
+          <div className="flex flex-col gap-2 mt-1">
+            <div className="text-slate-500">Home</div>
+            <div className="text-slate-500">Pricing</div>
+            <div className="text-slate-500">FAQ</div>
+            <div className="text-slate-500">About Us</div>
+            <div className="text-slate-500">Contact</div>
+          </div>
         </div>
       </div>
-    </footer>
+      <div className=" max-w-xl md:max-w-4xl  lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl lg:container px-5 mx-auto pb-10 ">
+        <h1 className="text-slate-800 font-semibold  text-xl mb-3">
+          Our Newsletter
+        </h1>
+        <h2 className="text-slate-500">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </h2>
+        <div className="flex rounded-lg overflow-hidden drop-shadow-md mt-5">
+          <input
+            type="text"
+            placeholder="E-mail Address"
+            id="large-input"
+            className="block w-full p-3 text-gray-900 bg-white sm:text-md focus:ring-blue-500 focus:border-blue-500 "
+          ></input>
+          <button
+            className="bg-third text-slate-50 font-semibold px-7"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+      <hr className="my-6 container border-solid border-x-8 border-third sm:mx-auto  lg:my-8" />
+      <span className="block pb-5 text-sm text-gray-700 text-center ">
+        © 2023{" "}
+        <a href="https://flowbite.com/" className="hover:underline">
+          PT. Mitra Solusi Wicaksana
+        </a>
+        . All Rights Reserved.
+      </span>
+    </div>
   );
 };
 

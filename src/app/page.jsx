@@ -1,17 +1,7 @@
-import Contents from "@/components/Contents.jsx";
-import Hero from "@/components/Hero.jsx";
-import Msw from "@/components/Msw";
-import Whyus from "@/components/Whyus.jsx";
-import Paket from "@/components/Paket";
-import Harga from "@/components/Harga";
-import Footer from "@/components/Footer";
-import Faq from "@/components/FAQ";
-import Navbar from "@/components/Navbar";
-import VO from "@/components/VO";
-import Maps from "@/components/Maps";
+"use client";
 import Discuss from "@/components/Discuss";
-import Aboutmsw from "@/components/Aboutmsw";
-import Whatsapp from "@/components/Whatsapp";
+import Hero from "@/components/Hero.jsx";
+import Readmore from "@/components/Readmore";
 
 export default function Home() {
   const title = "PT Mitra Solusi Wicaksana";
@@ -22,20 +12,9 @@ export default function Home() {
   return (
     <div>
       <div>
-        <Navbar />
         <Hero title={title} titleLarge={titleLarge} titleSmall={titleSmall} />
-        <Aboutmsw />
-        {/* <VO />
-      <Contents />
-      <Whyus />
-      <Msw />
-      <Paket />
-      <Harga /> */}
-        <Maps />
-        {/* <Faq /> */}
+        <Readmore />
         <Discuss />
-        {/* <Whatsapp /> */}
-        <Footer />
       </div>
     </div>
   );

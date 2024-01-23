@@ -21,79 +21,50 @@ const Hero = (props) => {
     },
   ];
   return (
-    <section className="bg-center relative bg-no-repeat bg-[url('/imagesmsw/logo5.jpg')] bg-cover bg-gray-700 bg-blend-multiply overflow-hidden ">
-      {/* <div className="w-72 h-6 absolute bg-white bottom-0 rounded-tr-3xl "></div> */}
-      <div className="px-6 mx-auto py-10 lg:py-20 sm:max-w-2xl md:max-w-4xl md:px-10  lg:max-w-5xl xl:max-w-7xl 2xl:w-full">
-        <h1 className="mb-4 text-4xl font-extrabold tracking-widerleading-none text-secondary leading-snug md:text-5xl lg:text-6xl">
-          {props.title}
-        </h1>
-        <p className="mb-8 hidden md:block text-lg font-normal text-gray-300 lg:text-2xl lg:leading-normal  text-justify xl:leading-relaxed">
-          {props.titleLarge}
-        </p>
-        <p className="mb-8 md:hidden text-lg font-normal text-gray-300 lg:text-xl  text-justify">
-          {props.titleSmall}
-        </p>
-        <div className="w-full mt-8  shadow-lg rounded-md overflow-hidden">
-          <Link
-            href="https://wa.me/6282210200085?text=Hello%20PT.%20Mitra%20Solusi%20Wicaksana%0A"
-            className="flex py-4 md:py-5 px-4 md:px-7 bg-white items-center justify-between"
-          >
-            <div>
-              <h1 className="md:text-2xl text-sm font-semibold text-secondary   mb-1">
-                Hubungi Kami
-              </h1>
-              <p className="md:text-lg text-xs text-secondary">
-                Untuk mendapat informasi menarik lainnya
-              </p>
-            </div>
-            <svg
-              className="md:w-6 md:h-6 w-4 h-4 ml-2 text-secondary"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 14 10"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9"
+    <div className="bg-background mt-5 mb-7 group lg:container lg:pt-5 pb-7">
+      <div className="px-4 xl:px-0 pt-5 xl:pt-10 max-w-md mx-auto sm:max-w-xl md:max-w-4xl lg:max-w-5xl  md:grid grid-cols-12 md:gap-5 lg:gap-7 xl:max-w-7xl  items-center">
+        <Image
+          className=" md:aspect-[4/5] lg:aspect-[4/3] md:max-w-xs lg:max-w-lg md:col-span-5 xl:max-w-2xl   w-full lg:col-span-6 2xl:col-span-7 mb-5 rotate-3 p-2 border   transition-all duration-500  object-cover  bg-cover bg-center"
+          src={"/imagesmsw/logo5.jpg"}
+          width={1000}
+          height={1000}
+          alt="Cruise"
+          priority={true}
+        />
+        <div className=" md:col-span-7 lg:col-span-6 2xl:col-span-5  ">
+          <h4 className="text-secondary xl:text-xl font-medium flex items-center gap-3">
+            Mitra Solusi Wicaksana{" "}
+            <span>
+              <Image
+                className="w-6 h-6 xl:w-6 xl:h-6 group-hover:scale-110 transition-all duration-500 drop-shadow-xl object-cover  bg-cover bg-center"
+                src={"/icons/workshop.png"}
+                width={1000}
+                height={1000}
+                alt="Cruise"
+                priority={true}
               />
-            </svg>
-          </Link>
+            </span>
+          </h4>
+          <h1 className="text-primary  text-3xl sm:text-[2.8rem]  mt-1 font-bold leading-snug md:leading-snug xl:text-[3.4rem] md:text">
+            Your Best Partner For Beyond Business Growth In Indonesia
+          </h1>
+          <h3 className="text-slate-600 mt-3 sm:text-lg xl:text-xl 2xl:leading-loose text-justify">
+            PT Mitra Solusi Wicaksana sebuah perusahaan penasihat atau konsultan
+            berdomisili di Indonesia yang menyediakan klien lokal dan
+            multinasional untuk memulai dan mengelola operasi bisnis di
+            indonesia
+          </h3>
+          <div className=" mt-3 xl:mt-10  flex gap-10 items-center">
+            <Link
+              className="bg-primary text-white px-5 py-2 md:text-lg md:font-bold rounded"
+              href="#"
+            >
+              Hubungi Kami
+            </Link>
+          </div>
         </div>
-        {/* <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-        <a
-          href="#"
-          className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
-        >
-          Get started
-          <svg
-            className="w-3.5 h-3.5 ml-2"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 14 10"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M1 5h12m0 0L9 1m4 4L9 9"
-            />
-          </svg>
-        </a>
-        <a
-          href="#"
-          className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
-        >
-          Learn more
-        </a>
-      </div> */}
       </div>
-    </section>
+    </div>
   );
 };
 

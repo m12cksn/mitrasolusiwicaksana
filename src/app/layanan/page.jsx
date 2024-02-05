@@ -53,8 +53,6 @@ const page = () => {
     "Konsultan Mitra Solusi Wicaksana berpengalaman dalam memberikan saran dan panduan bisnis untuk mencapai tujuan klien. Tim konsultan kami memiliki pengalaman dan mampu dalam menganalisa dalam aspek bisnis dan hukum. Kami bekerja sama dengan klien dalam mengembangkan bisnis mereka dengan memenuhi kebutuhan klien kami.";
   return (
     <div className="">
-      <Navbar />
-      <Hero title={title} titleLarge={titleLarge} titleSmall={titleSmall} />
       <Title
         img="/MSW/content.svg"
         title="Layanan PT. Mitra Solusi Wicaksana Antara Lain : "
@@ -96,7 +94,6 @@ const page = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

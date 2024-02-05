@@ -29,7 +29,6 @@ const page = () => {
 
   return (
     <div className="bg-slate-200">
-      <Navbar />
       <div className="lg:flex lg:container">
         <div className="basis-2/3 flex justify-center  p-3 ">
           <form action="" className=" w-full pt-8 pb-10 px-5 bg-white">
@@ -115,7 +114,6 @@ const page = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

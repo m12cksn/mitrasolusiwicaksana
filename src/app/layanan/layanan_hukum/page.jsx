@@ -37,7 +37,6 @@ const page = () => {
   ];
   return (
     <div>
-      <Navbar />
       <div className="bg-secondary p-3">
         <Image
           className=" mt-5 mb-3 w-24 mx-auto text-teks"
@@ -74,8 +73,6 @@ const page = () => {
           ))}
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 };

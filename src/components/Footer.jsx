@@ -4,6 +4,7 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { TbWorldWww } from "react-icons/tb";
 import Maps from "./Maps";
+import Link from "next/link";
 
 const Footer = () => {
   const medias = [
@@ -49,11 +50,21 @@ const Footer = () => {
         <div className="mt-10 md:mt-0 basis-1/3">
           <h1 className="text-slate-800 font-semibold  text-xl">Learn More</h1>
           <div className="flex flex-col gap-2 mt-1">
-            <div className="text-slate-500">Home</div>
-            <div className="text-slate-500">Pricing</div>
-            <div className="text-slate-500">FAQ</div>
-            <div className="text-slate-500">About Us</div>
-            <div className="text-slate-500">Contact</div>
+            <Link href="/" className="text-slate-500">
+              Beranda
+            </Link>
+            <Link href="/" className="text-slate-500">
+              Tentang Kami
+            </Link>
+            <Link href="/" className="text-slate-500">
+              Layanan
+            </Link>
+            <Link href="/" className="text-slate-500">
+              FAQ
+            </Link>
+            <Link href="/" className="text-slate-500">
+              Contact
+            </Link>
           </div>
         </div>
       </div>

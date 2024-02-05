@@ -30,8 +30,6 @@ const page = () => {
   );
   return (
     <div>
-      <Navbar />
-
       <div className="w-full bg-primary">
         <div className="w-full ">
           <div className="pt-8 pb-5">
@@ -41,7 +39,7 @@ const page = () => {
             </h1>
           </div>
 
-          <div className="container mx-auto px-7 lg:px-0  md:flex flex-wrap gap-5 lg:gap-0 lg:container-off xl:grid xl:grid-cols-3 lg-px-5 ">
+          <div className="container mx-auto px-7 lg:px-0  md:flex flex-wrap gap-5 lg:gap-0 lg:container-off xl:grid xl:grid-cols-3 lg-px-5 pb-7 ">
             <div className="max-w-sm mb-5 md:mb-0 lg:mb-5 p-4 mx-auto border bg-teks rounded-lg shadow sm:p-8 md:max-w-sm lg:max-w-xs xl:max-w-3xl gap-5  ">
               <h5 className="mb-4 text-xl   text-primary font-bold ">
                 Paket A
@@ -235,7 +233,7 @@ const page = () => {
                     Nomer Telepon Perusahaan
                   </span>
                 </li>
-                <li className="flex space-x-3 line-through decoration-gray-500">
+                <li className="flex space-x-3  decoration-gray-500">
                   {yes}
                   <span className="text-base font-semibold  leading-tight text-gray-800">
                     Meeting Room 4 jam perbulan
@@ -387,7 +385,7 @@ const page = () => {
                 Choose plan
               </Link>
             </div>
-            <div className="max-w-sm mb-5 md:mb-0 lg:mb-5 p-4 mx-auto border bg-teks rounded-lg shadow sm:p-8 md:max-w-sm lg:max-w-xs xl:max-w-3xl gap-5  ">
+            <div className="max-w-sm mb-5 md:mb-0 lg:mb-5 p-4 mx-auto border bg-teks rounded-lg shadow sm:p-8 md:max-w-sm lg:max-w-xs xl:max-w-3xl gap-5   ">
               <h5 className="mb-4 text-xl   text-primary font-bold ">
                 Paket F
               </h5>
@@ -442,7 +440,7 @@ const page = () => {
                     Nomer Telepon Perusahaan
                   </span>
                 </li>
-                <li className="flex space-x-3 line-through decoration-gray-500">
+                <li className="flex space-x-3  decoration-gray-500">
                   {yes}
                   <span className="text-base font-semibold  leading-tight text-gray-800">
                     Meeting Room 4 jam perbulan
@@ -460,7 +458,6 @@ const page = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

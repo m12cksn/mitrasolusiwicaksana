@@ -66,7 +66,7 @@ const page = () => {
                 </div>
                 <div className="py-5 px-2 md:basis-1/2 md:mt-5 md:shadow-lg md:p-6 md:bg-slate-50 ">
                   <Link href="https://wa.me/6282210200085?text=Hello%20PT.%20Mitra%20Solusi%20Wicaksana%0A">
-                    <h5 className="mb-2 md:mb-5 md:text-3xl md:tracking-normal text-2xl font-bold tracking-tight text-slate-50 ">
+                    <h5 className="mb-2 md:mb-5 md:text-3xl md:tracking-normal text-2xl font-bold tracking-tight text-primary ">
                       {data.title}
                     </h5>
                   </Link>

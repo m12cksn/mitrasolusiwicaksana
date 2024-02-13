@@ -79,10 +79,6 @@ const page = () => {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-        <div className=" w-full mx-auto ">
-          <div className="mt-5 pb-28 px-3 relative   z-30 md:container sm:grid-cols-2 md:grid-cols-1  grid mx-auto gap-5 grid-flow-col-1 xl:gap-10 xl:mt-12 xl:grid xl:grid-cols-2 place-content-center ">
             <div className="max-w-xs shadow bg-slate-100 md:flex md:max-w-3xl xl:max-w-xl  md:pb-10 rounded-xl  mx-auto  overflow-hidden ">
               <div
                 // href="https://wa.me/6282210200085?text=Hello%20PT.%20Mitra%20Solusi%20Wicaksana%0A"

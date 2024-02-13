@@ -39,8 +39,7 @@ const Footer = () => {
             Get in Touch
           </h1>
           <p className="text-slate-500 md:text-justify">
-            Lippo Tower Holland Village, Lantai 12 Unit 2910, Jalan Letjend
-            Suprapto Kav.60 Nomor 1, Jakarta Pusat
+            Lippo Tower Holland Village Jakarta, Lantai 29 Unit 2910.
           </p>
           <div className="mt-5">
             <p className="text-slate-500">ptmitrasolusiwicaksana@gmail.com</p>

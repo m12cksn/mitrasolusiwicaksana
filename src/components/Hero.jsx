@@ -49,10 +49,9 @@ const Hero = (props) => {
             Your Best Partner For Beyond Business Growth In Indonesia
           </h1>
           <h3 className="text-slate-600 mt-3 sm:text-lg xl:text-xl 2xl:leading-loose text-justify">
-            PT Mitra Solusi Wicaksana sebuah perusahaan penasihat atau konsultan
-            berdomisili di Indonesia yang menyediakan klien lokal dan
-            multinasional untuk memulai dan mengelola operasi bisnis di
-            indonesia
+            PT Mitra Solusi Wicaksana sebuah Perusahaan yang menyediakan
+            konsultan hukum Perusahaan untuk membantu para mitranya dalam
+            memulai dan mengelola operasi bisnis di Indonesia
           </h3>
           <div className=" mt-3 xl:mt-10  flex gap-10 items-center">
             <Link

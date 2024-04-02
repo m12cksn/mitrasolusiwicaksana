@@ -36,15 +36,11 @@ const Readmore = () => {
           <span className="font-bold text-xl lg:text-2xl">
             PT Mitra Solusi Wicaksana
           </span>{" "}
-          merupakan Perseroan Terbatas yang bergerak di bidang Jasa Konsultan
-          Hukum sejak tahun 2017. Mitra Solusi Wicaksana berpengalaman dalam
-          memberikan nasehat dan Konsultan hukum dalam mengembangkan bisnis
-          anda, jasa konsultan hukum yang diberikan baik kepada perusahaan
-          ataupun perorangan senantiasa mengikuti dinamisasi regulasi yang
-          berlaku. Tim Konsultasi yang diberikan Mitra Solusi Wicaksana
-          berpengalaman memiliki pemahaman mendalam tentang aspek Bisnis dan
-          Hukum serta Mitra Solusi Wicaksana turut bekerja sama dengan klien
-          untuk membantu mengembangkan bisnis mereka.
+          merupakan Perseroan Terbatas yang bergerak di bidang penyedia Jasa
+          Konsultan Hukum Perusahaan sejak tahun 2017. yang berpengalaman dalam
+          memberikan konsultasi terkait hukum Perusahaan yang bertujuan untuk
+          perkembangan dan permasalahan yang dihadapi Perusahaan mengikuti
+          dinamisasi regulasi yang berlaku.
         </p>
 
         <p
